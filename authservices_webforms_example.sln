@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebformsApplication", "SampleWebformsApplication\SampleWebformsApplication.csproj", "{C8FCC779-30E1-49B4-AD76-A2C0B130A2FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebformsSP", "WebformsSP\WebformsSP.csproj", "{DFFC55DC-8258-4FCC-B06E-FABD4DD69859}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8FCC779-30E1-49B4-AD76-A2C0B130A2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FCC779-30E1-49B4-AD76-A2C0B130A2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FCC779-30E1-49B4-AD76-A2C0B130A2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FCC779-30E1-49B4-AD76-A2C0B130A2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFFC55DC-8258-4FCC-B06E-FABD4DD69859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFC55DC-8258-4FCC-B06E-FABD4DD69859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFC55DC-8258-4FCC-B06E-FABD4DD69859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFC55DC-8258-4FCC-B06E-FABD4DD69859}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
